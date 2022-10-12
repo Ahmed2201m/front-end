@@ -1,47 +1,55 @@
 <!-- comment-->
 <html>
 <head>
+  <link  rel="stylesheet" href="signup.css" >
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+
+ 
+  <div class="form">
   <h1>Please sign up</h1>
+
+  <hr>
   <form>
-  <label  >enter your name</label>
-  <input  type="text"/>
-  <br>
+ <div class="inputs"> <label for="n" >enter your name</label>
+  <input id="n" type="text"/>
+  
   <label>enter email</label>
   <input type="email">
-  <br>
+  
   <label>password</label>
   <input type="password">
-  <br>
+  
   <label>phone</label>
   <input type="number">
-  <br>
+  
   <label>date og birth</label>
   <input type="date">
-  <br>
-  <label> select gender</label>
-  <input type="radio" name="gender"> <label>male</label>
-  <input type='radio'  name="gender"> <label>female</label>
-  <br>
-  <label>enter your username</label>
-  <input type="text">
-  <br>
-  <label>enter addres </label> <br>
-  <textarea cols="30" rows="6"></textarea>
-  <br>
-  <label>select country</label>
+  
+  
+  
+  <label>enter addres </label> 
+  <textarea  id="p" placeholder="enter addres" cols="30" rows="6"></textarea>
+ 
+  <label class="select">select country</label>
   <select name="country" id="name">
   <option value="0">usa</option>
   <option value="1">china</option>
   <option value="2">italy</option>
   <option value="3">uk</option>
   <option value="4">france</option>
+   </select> <br>
+ 
+  <button id="submit" type="submit">submit</button> 
+  <button id="clear">clear</button>  </div> 
+<br>
 
-
-
-  </select>
-  </form>
+ 
+</div>
+</form>
+<h3>end of form</h3>
+  
 
 
   </html>
